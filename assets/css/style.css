@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/psychic.jpg");
+    width: 100%;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+h1,h2 {
+    color: white;
+    margin: 20px;
+}

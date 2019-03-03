@@ -1,6 +1,5 @@
 //VARIABLES
 var computerChoice = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-// var computerChoice = ["abcdefghijklmnopqrstuvwxyz"]
 
 var wins = 0;
 var losses = 0;
@@ -42,15 +41,15 @@ document.onkeyup = function(event) {
         reset();
 
     }
-
+    
+//DISPLAY
     userGuessText.textContent = allGuesses;
     guessLeftText.textContent = guessLeft;
     winsText.textContent = wins;
     lossesText.textContent = losses;
 }
 
-// PROCESS
 
 
-//DISPLAY
+
 
