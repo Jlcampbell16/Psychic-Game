@@ -20,7 +20,7 @@ function reset () {
     allGuesses = []
     computerGuess = computerChoice[Math.floor(Math.random() *computerChoice.length)];
 }
-
+// function what happens when the user presses a key
 document.onkeyup = function(event) {
     var userGuess = event.key;
     allGuesses.push(userGuess);
